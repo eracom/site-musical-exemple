@@ -1,0 +1,30 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #d3bda6;
+}
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  display: block;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+
+.brand, .nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 1em;
+}
+
